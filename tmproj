@@ -1,0 +1,8 @@
+#! /usr/bin/bash
+
+mkdir -p /tmp/proj
+cd /tmp/proj
+
+if [[ $1 = "-vs" ]]; then
+	code /tmp/proj
+fi
